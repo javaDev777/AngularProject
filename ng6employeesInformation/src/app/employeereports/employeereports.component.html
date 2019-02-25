@@ -1,0 +1,9 @@
+<h1>Employee Reports</h1>
+
+<ul>
+  <li *ngFor="let employeereport of employeereports$">
+    <a routerLink="">{{ employeereport.title }}</a>
+
+    <p>{{ employeereport.body }}</p>
+  </li>
+</ul>
